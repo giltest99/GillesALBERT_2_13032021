@@ -12,81 +12,62 @@ body {
 }
 
 main {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     margin: auto;
-    padding: 0 50px;
+    padding: 0 3rem;
 }
 /* 
     HEADER
 */
+
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 1rem;
 }
 
-/* 
-    HEBERGEMENTS
-*/ 
+.reservia_logo {
 
-/* .card_column { grid: col; }
-.card_row { grid: row; } */
-
-.hebergement_container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 2;
-    align-items: start;
 }
 
-.card_horizontal {
-    flex-direction: row;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.2s;
-    width: 240px;
-    display:inline-block;
-    background-color: white;
-    padding: 5px 5px;
-    border-radius: 20px 20px 20px 20px;
-    border: 1px solid rgba(0,0,0,0.1);
-    margin: 5px;
+.header_logo {
+    margin-top: 2rem;
 }
 
-.card_horizontal:hover {
-    box-shadow: 0 10px 10px 4px rgba(0,0,0,0.2);
-    cursor:pointer;
+.header_navigation ul {
+    list-style-type: none;
+    display: flex;
+
 }
 
-.card_horizontal img {
-    height: 8rem;
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-    border-radius: 16px 16px 0 0;
-    background-color: white;
-    margin-bottom: 0.25rem;
+.header_navigation li {    
+    margin-right: 2rem;
+}
+.header_navigation a {
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
 }
 
-.card_horizontal p {
-    font-size: 0.9rem
+.header_navigation a:hover {
+    padding-top: 2.5rem;
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+    line-height: 1.2rem;
 }
 
-.card_horizontal p {
-    font-size: 0.9rem
-}
-
-.star_blue {
-    color:#0065FC;
-}
-.star_grey {
-    color: lightgrey;
-}
-.bold_price {
+.header_nav_blue {
+    color: #0065FC;
     font-weight: 700;
 }
 
-a, a:visited {
-    text-decoration: none;
-    color: black;
-}
+
+
 
 /*
     FOOTER
