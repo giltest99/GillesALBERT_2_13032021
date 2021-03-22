@@ -114,6 +114,7 @@ SEARCH INPUT AND FILTERS
 
 .info_para {
     line-height: 2rem;
+    margin-bottom: 2rem;
 }
 
 .info_border {
@@ -172,7 +173,7 @@ HEBERGEMENTS CARDS
 
 .card_vertical {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     box-shadow: 0 6px 6px 0 lightgrey;
     width: 100%;
     display: block;
@@ -183,10 +184,10 @@ HEBERGEMENTS CARDS
     margin: 5px;
 }
 
-.card_vertical > div {
+/* .card_vertical > div {
     color: transparent;
 }
-
+ */
 .card_horizontal:hover {
     box-shadow: 0 10px 10px 4px lightgrey;
 }
