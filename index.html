@@ -35,19 +35,24 @@
                 <p>En plein centre-ville ou en pleine nature</p>
             </header>
 
-            <article class="search_input_button">
-                <form>
-                    <span class="search_mark"><i class="fas fa-map-marker-alt"></i></span>
-                    <input type="search_input" placeholder="Marseille, France">
-                    <button class="search_submit">Rechercher</button>
-                </form>
-            </article>
+            <div id="search_city">               
+                <div>
+                    <label class="fas fa-map-marker-alt" id="search_map_icon"></label>
+                </div>
+    
+                <div>
+                    <input type="text" id="input_city" placeholder="Marseille, France">
+                </div>
+                <div>
+                    <button id="search_button">Rechercher</button>
+                </div>
+            </div> 
 
             <article class="filter">
                 <div class="filter_button">
                     <h3>Filtres</h3>
                 </div>
-                
+
                 <div class="filter_button">
                     <span><i class="fas fa-money-bill-wave"></i>Economique</span>
                 </div>

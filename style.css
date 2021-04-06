@@ -12,7 +12,7 @@ body {
     width: 100%;
     margin: auto;
     font-family: "Raleway", "sans-serif";
-}
+} 
 
 main {
     max-width: 1440px;
@@ -80,8 +80,46 @@ main header p {
     margin-bottom: 1rem;
 }
 
+
 /*
-SEARCH INPUT AND FILTERS
+SEARCH INPUT
+*/
+#search_city {
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    height: 45px;
+}
+#search_map_icon {
+    width: 50px;
+    height: 100%;
+    background-color: #F2F2F2;
+    color: black;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-radius: 15px 0 0 15px;		
+    text-align: center;		
+}
+#input_city {
+    width: 240px;
+    height: 100%;
+    border: 1px  solid #F2F2F2;
+    font-weight: 900;
+    padding-left: 15px;
+}
+#search_button {
+    width: 130px;
+    height: 100%;
+    background-color: #0065FC;
+    color: white;
+    border: 1px solid #F2F2F2;	
+    border-radius: 0 15px 15px 0;				
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/*
+FILTERS
 */
 
 .search_input_button {
@@ -173,10 +211,10 @@ HEBERGEMENTS CARDS
 
 .card_vertical {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     box-shadow: 0 6px 6px 0 lightgrey;
     width: 100%;
-    display: block;
+/*     display: block; */
     background-color: white;
     padding: 5px 5px;
     border-radius: 16px 16px 16px 16px;
