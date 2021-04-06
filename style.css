@@ -34,7 +34,7 @@ HEADER
 }
 
 .header_logo {
-    margin-top: 2rem;
+    margin-top: 3rem;
     align-self: flex-end;
 }
 
@@ -50,8 +50,9 @@ HEADER
 }
 
 .header_navigation a {
-    padding-top: 35px;
-    padding-left: 10px;
+    margin-left: 3rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
     padding-bottom: 3px;
     line-height: 20px;
     text-decoration: none;
@@ -121,33 +122,40 @@ SEARCH INPUT
 /*
 FILTERS
 */
-
-.search_input_button {
-    margin-bottom: 1rem;
+#filters_title {
+    display: inline-block;
+    margin-right: 1rem;
+    padding-top: 2.2rem;
 }
 
-.filter {
+.filters {
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    margin-bottom: 4rem;
+    flex-wrap: wrap;
 }
 
-.filter_button {
-    margin-top: 4rem;
-    margin-right: 1rem;
+.filters_button {
+    border: 2px solid #F2F2F2;
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 60px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.filters_button:hover {
+    box-shadow: 4px 4px 4px lightgrey;
+    cursor: pointer;
 }
 
-.filter_button span {
-    margin-right: 2rem;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
-    padding: 1rem 2rem;
-}
-
-.filter_button span i {
+#eco, #fam, #rom, #ani {
+    background-color:#DEEBFF;
     color: #0065FC;
-    background-color: #DEEBFF;
     border-radius: 100%;
+    padding: 0.6rem;
+    border: 8px solid #DEEBFF;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
 }
 
 .info_para {
@@ -220,6 +228,7 @@ HEBERGEMENTS CARDS
     border-radius: 16px 16px 16px 16px;
     border: 1px solid lightgrey;
     margin: 5px;
+    margin-bottom: 30px;
 }
 
 /* .card_vertical > div {
