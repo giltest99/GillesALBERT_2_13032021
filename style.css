@@ -123,9 +123,9 @@ SEARCH INPUT
 FILTERS
 */
 #filters_title {
-    display: inline-block;
     margin-right: 1rem;
-    padding-top: 2.2rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
 }
 
 .filters {
@@ -136,15 +136,17 @@ FILTERS
 }
 
 .filters_button {
+    background-color: white;
     border: 2px solid #F2F2F2;
     display: inline-block;
     margin: 1rem;
     border-radius: 60px;
     padding-right: 20px;
     font-weight: 700;
+    font-size: 1.1rem;
 }
 .filters_button:hover {
-    box-shadow: 4px 4px 4px lightgrey;
+    box-shadow: 8px 8px 8px grey;
     cursor: pointer;
 }
 
@@ -222,7 +224,6 @@ HEBERGEMENTS CARDS
     flex-direction: row;
     box-shadow: 0 6px 6px 0 lightgrey;
     width: 100%;
-/*     display: block; */
     background-color: white;
     padding: 5px 5px;
     border-radius: 16px 16px 16px 16px;
@@ -231,12 +232,8 @@ HEBERGEMENTS CARDS
     margin-bottom: 30px;
 }
 
-/* .card_vertical > div {
-    color: transparent;
-}
- */
 .card_horizontal:hover {
-    box-shadow: 0 10px 10px 4px lightgrey;
+    box-shadow: 8px 8px 8px grey;
 }
 
 .card_horizontal img {
@@ -318,18 +315,134 @@ a, a:visited {
     margin-bottom: 2rem;
 }
 
+/*
+POPULAIRES
+*/
 
+.populaires_title {
+    width: 92%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.populaires_cards {
+    width:92%;
+    display: flex;
+    background-color: white;
+    border-radius:20px;
+    margin-top:20px;
+    box-shadow: 4px 4px 4px lightgrey;
+}
+.populaires_cards:hover {
+    box-shadow: 8px 8px 8px grey;
+}
+.populaires_cards_div {
+    width:180px;
+    border-radius:20px 0 0 20px;
+    padding:2px;
+    height:160px  
+}
+.populaires_cards_div_img {
+    object-fit: cover;
+    width: 180px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    padding:2px
+}
+.populaires_cards_div_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;                     
+    align-items: flex-start;
+}
+.populaires_cards_div_container_txt {
+    padding: 20px;
+}
+.populaires_cards_div_container_stars {
+    padding: 20px;
+}
 
+/*
+ACTIVITES MARSEILLE
+*/
 
+#activites_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height:600px;
+}
 
+.activites_container_card_single {
+    min-width: 300px;
+    width: 24%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px lightgrey;
+}
+.activites_container_card_double {
+    min-width: 300px;
+    width: 22%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activites_container_card_item {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px lightgrey;
+}
+.activites_card_img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px 20px 0 0 ;
+}
+#activites_card_img_dble_01 {
+    object-fit: cover;
+    width:100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0 ;
+}
+#activites_card_img_dble_02 {
+    object-fit: cover;
+    width:100%;
+    height: 140px;
+    border-radius: 20px 20px 0 0 ;
+}
+#activites_card_img_dble_03 {
+    object-fit: cover;
+    width:100%;
+    height: 210px;
+    border-radius: 20px 20px 0 0 ;
+}
+#activites_card_img_dble_04 {
+    object-fit: cover;
+    width:100%;
+    height: 210px;
+    border-radius: 20px 20px 0 0 ;
+}
 
+.activites_card_h3 {
+    padding-left: 20px;
+    min-height: 20px;
+}
+.activites_container_card_double_item {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px lightgrey;
+}
+.activites_container_card_single:hover {
+    box-shadow: 8px 8px 8px grey;
+}
 
-
-
-
-
-
-
+.activites_container_card_double_item:hover {
+    box-shadow: 8px 8px 8px grey;
+}
 
 /*
     FOOTER
@@ -355,14 +468,14 @@ a, a:visited {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    line-height: 2rem;;
+    line-height: 2rem;
 }
 .footer_item {
     width: 33%;
 }
 
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
 
 
     .header_navigation_item_3 {
@@ -386,7 +499,7 @@ a, a:visited {
         width: 100%;
         margin-bottom: 2rem;
     }
-}
+} */
 
 
 
