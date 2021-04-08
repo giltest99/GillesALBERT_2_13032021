@@ -48,6 +48,10 @@ HEADER
 .header_navigation_item_1, .header_navigation_item_2, .header_navigation_item_3 {
     align-items: flex-end;
 }
+#header_navigation_item_3 {
+    color:#0065FC;
+    font-weight: 700;
+}
 
 .header_navigation a {
     margin-left: 3rem;
@@ -246,16 +250,6 @@ HEBERGEMENTS CARDS
     margin-bottom: 0.25rem;
 }
 
-.card_vertical img {
-    height: 8rem;
-    object-fit: cover;
-    display: block;
-    width: 33%;
-    max-height: 50%;
-    border-radius: 12px 0 0 16px;
-    background-color: white;
-    margin-bottom: 0.25rem;
-}
 
 .card_horizontal p {
     font-size: 0.9rem
@@ -286,7 +280,6 @@ a, a:visited {
     text-decoration: none;
     color: black;
 }
-
 
 .activites_container {
     display: flex;
