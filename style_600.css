@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+    .header_logo  {
+        width: 50%;
+        order: 1;
+    }
+    .header_inscription {
+        width: 50%;
+        order: 2;
+    }
+    .header_navigation {
+        width: 100%;
+        order: 3;
+        border-bottom: 2px solid #F2F2F2;
+    }
+    .header_navigation_item_1:hover {
+        color:#0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+    .header_navigation_item_2:hover {
+        color:#0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+    .header_navigation_item_3:hover {
+        border-top: none;
+    }
+}
