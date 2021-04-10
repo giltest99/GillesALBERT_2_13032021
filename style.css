@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,8 +19,6 @@ main {
     margin: auto;
 }
 
-
-
 /*
 HEADER
 */
@@ -35,7 +32,6 @@ HEADER
 }
 .header_logo {
     width: 60%;
-/*     background-color:salmon; */
     align-self: flex-end;
 }
 .header_navigation {
@@ -43,8 +39,7 @@ HEADER
     display:flex;
     flex-direction: row;
     text-align: center;
-/*     background-color: seagreen; */
-    line-height:60px;
+    line-height: 60px;
 }
 .header_navigation_item_1 {
     width: 50%;
@@ -55,8 +50,7 @@ HEADER
 .header_inscription {
     width: 12%;
     text-align: center;
-    /* background-color: lightgrey; */
-    line-height:60px;
+    line-height: 60px;
 }
 .header_inscription > div a {
     text-align: center;
@@ -77,22 +71,29 @@ HEADER
     border-top: 2px solid #0065FC;
 }
 
-
-
-
-
+.search_filters_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.search_filters_desc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
 
 /*
-MAIN
+SEARCH FILTERS
 */
 
-main header h2 {
+.search_filters_desc h2 {
     margin-bottom: 1rem;
 }
-main header p {
+.search_filters_desc p {
     margin-bottom: 1rem;
 }
-
 
 /*
 SEARCH INPUT
@@ -100,11 +101,12 @@ SEARCH INPUT
 #search_city {
     display: flex;
     flex-direction: row;
-    width: 420px;
+    max-width: 420px;
+    min-width: 200px;
     height: 45px;
 }
 #search_map_icon {
-    width: 50px;
+    width: 15%;
     height: 100%;
     background-color: #F2F2F2;
     color: black;
@@ -114,14 +116,14 @@ SEARCH INPUT
     text-align: center;		
 }
 #input_city {
-    width: 240px;
+    width: 60%;
     height: 100%;
     border: 1px  solid #F2F2F2;
     font-weight: 900;
     padding-left: 15px;
 }
 #search_button {
-    width: 130px;
+    width: 25%;
     height: 100%;
     background-color: #0065FC;
     color: white;
@@ -134,17 +136,17 @@ SEARCH INPUT
 /*
 FILTERS
 */
-#filters_title {
-    margin-right: 1rem;
-    padding-top: 2rem;
-    font-size: 1.3rem;
-}
 
 .filters {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#filters_title {
+    align-self: center; 
 }
 
 .filters_button {
@@ -169,7 +171,7 @@ FILTERS
     padding: 0.6rem;
     border: 8px solid #DEEBFF;
     margin-right: 0.75rem;
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
 }
 
 .info_para {
