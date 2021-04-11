@@ -33,9 +33,7 @@
     /*
     SEARCH_FILTERS AND BUTTONS
     */
-   /*  .search_filters_container {
-        padding: 5px;
-    } */
+
     #search_text {
         display: none;
     }
@@ -62,6 +60,39 @@
     }
     .filters_button {
         margin-left: 0;
+    }
+
+    /*
+    POPULAIRES 
+    */
+
+    .hebergements_and_populaires {
+        flex-direction: column;
+    }
+    .populaires {
+        order: 1;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+    .hebergements {
+        order: 2;
+    }
+    .populaires_title {
+        padding: 10px 20px;
+        
+    }
+
+
+
+
+    /*
+    HEBERGEMENTS
+    */
+
+    .hebergements {
+        background-color: white;
+        width: 100%;
     }
 
 

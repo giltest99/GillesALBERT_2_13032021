@@ -203,8 +203,10 @@ HEBERGEMENTS ET POPULAIRES
 .hebergements_and_populaires {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2rem;
+    padding: 0 10px;
 }
 
 .hebergements {
@@ -340,7 +342,9 @@ POPULAIRES
     margin-bottom: 10px;
 }
 .populaires_cards {
-    width:92%;
+    width: 92%;
+    min-width: 330px;
+    height: 160px;
     display: flex;
     background-color: white;
     border-radius:20px;
@@ -358,7 +362,7 @@ POPULAIRES
 }
 .populaires_cards_div_img {
     object-fit: cover;
-    width: 180px;
+    width: 140px;
     height: 100%;
     border-radius: 20px 0 0 20px;
     padding:2px
