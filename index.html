@@ -10,62 +10,60 @@
     <script src="https://kit.fontawesome.com/01799896ec.js" crossorigin="anonymous"></script>   
 </head>
 <body>
-<!-- HEADER -->
-<header class="header">
-    <figure class="header_logo">
-        <a href="#"><img src="images/logo/Reservia.svg" alt="Reservia" class="reservia_logo"/></a>
-    </figure>
 
-    <nav class="header_navigation">
-        <div class="header_navigation_item_1" id="header_navigation_item_1">
-            <a id="hebergements" href="#hebergements_marseille">Hébergements</a>
-        </div>
-
-        <div class="header_navigation_item_2">
-            <a id="activites" href="#activites_marseille">Activités</a>
-        </div>
-                
-    </nav>
-
-    <div class="header_inscription">
-        <div class="header_navigation_item_3">
-            <a href="#" id="header_navigation_item_3">S'inscrire</a>
-        </div>
-    </div>
-    
-</header>
-
-<section class="search_filters_container">
-    <header class="search_filters_desc">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre-ville ou en pleine nature</p>
-    </header>
-
-    <div id="search_city">                              
-        <i class="fas fa-map-marker-alt" id="search_map_icon"></i>                               
-        <input type="text" id="input_city" placeholder="Marseille, France">                               
-        <button id="search_button"><span id="search_text" >Rechercher</span><i class="fas fa-search" id="search_search_icon"></i></button>               
-    </div> 
-
-    <div class="filters">          
-        <h3 id="filters_title">Filtres</h3>
-        <button class="filters_button"><i class="fas fa-money-bill-wave" id="eco"></i>Economique</button>
-        <button class="filters_button"><i class="fas fa-child" id="fam"></i>Familial</button>
-        <button class="filters_button"><i class="fas fa-heart" id="rom"></i>Romantique</button>
-        <button class="filters_button"><i class="fas fa-dog" id="ani"></i>Animaux autorisés</button>
-    </div>
-
-    <footer class="info_para">
-        <span class="info_border"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville
-    </footer>
-</section>
      
     <!-- MAIN -->
 
     <main>
+        <!-- HEADER -->
+        <header class="header">
+            <figure class="header_logo">
+                <a href="#"><img src="images/logo/Reservia.svg" alt="Reservia" class="reservia_logo"/></a>
+            </figure>
 
-        
-        
+            <nav class="header_navigation">
+                <div class="header_navigation_item_1" id="header_navigation_item_1">
+                    <a id="hebergements" href="#hebergements_marseille">Hébergements</a>
+                </div>
+
+                <div class="header_navigation_item_2">
+                    <a id="activites" href="#activites_marseille">Activités</a>
+                </div>
+                        
+            </nav>
+
+            <div class="header_inscription">
+                <div class="header_navigation_item_3">
+                    <a href="#" id="header_navigation_item_3">S'inscrire</a>
+                </div>
+            </div>
+            
+        </header>
+
+        <section class="search_filters_container">
+            <header class="search_filters_desc">
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </header>
+
+            <div id="search_city">                              
+                <i class="fas fa-map-marker-alt" id="search_map_icon"></i>                               
+                <input type="text" id="input_city" placeholder="Marseille, France">                               
+                <button id="search_button"><span id="search_text" >Rechercher</span><i class="fas fa-search" id="search_search_icon"></i></button>               
+            </div> 
+
+            <div class="filters">          
+                <h3 id="filters_title">Filtres</h3>
+                <button class="filters_button"><i class="fas fa-money-bill-wave" id="eco"></i>Economique</button>
+                <button class="filters_button"><i class="fas fa-child" id="fam"></i>Familial</button>
+                <button class="filters_button"><i class="fas fa-heart" id="rom"></i>Romantique</button>
+                <button class="filters_button"><i class="fas fa-dog" id="ani"></i>Animaux autorisés</button>
+            </div>
+
+            <footer class="info_para">
+                <span class="info_border"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville
+            </footer>
+        </section>
 
  <!--       <section class="hebergements_and_populaires">
             
@@ -256,11 +254,11 @@
 
                    
             </aside>
-        </section>
+        </section> -->
         
        <section class="activites" id="activites_marseille">
 
-            <header>
+            <header id="activites_header">
                 <h1>Activités à Marseille</h1>
             </header>
             
@@ -276,7 +274,7 @@
                     </a>
                 </div>
 
-                <div class="activites_container_card_double">
+                <div class="activites_container_card_double" id="activites_container_card_double_02">
                     <a href="#">
                         <div class="activites_container_card_double_item">
                             <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort Pomègues" id="activites_card_img_dble_01">
@@ -321,8 +319,11 @@
                 </div>
             </div>
 
-        </section>  -->
+        </section>
         
+
+         
+
     </main>
 
     <!-- FOOTER -->
@@ -344,6 +345,7 @@
             <a href="#" class="">Nous contacter</a>
         </div>
 
-    </footer> 
+    </footer>
+    
 </body>
 </html>

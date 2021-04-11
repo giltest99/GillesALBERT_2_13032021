@@ -1,4 +1,4 @@
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 600px) {
     
     /*
     HEADER
@@ -65,9 +65,29 @@
     }
 
 
+    /*
+    ACTIVITES MARSEILLE
+    */
+    #activites_container {
+        flex-direction: column;
+        padding: 10px;
+    }
 
-
-
+    .activites_container_card_single {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+   
+    .activites_container_card_double {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    #activites_container_card_double_02 {
+        margin-bottom: 0;
+    }
+    .activites_container_card_double_item {
+        margin-bottom: 20px;
+    }
 
     /*
     FOOTER

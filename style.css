@@ -17,8 +17,10 @@ body {
 main {
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-
 /*
 HEADER
 */
@@ -323,6 +325,7 @@ a, a:visited {
 
 .activites h1 {
     margin-bottom: 2rem;
+    padding: 0 10px;
 }
 
 /*
@@ -376,30 +379,33 @@ POPULAIRES
 /*
 ACTIVITES MARSEILLE
 */
-
+#activites_marseille {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
 #activites_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
-    height:600px;
+    width: 98%;
 }
 
 .activites_container_card_single {
-    min-width: 300px;
+    min-width: 220px;
     width: 24%;
-    height: 90%;
+    height: 100%;
     border-radius: 20px;
     box-shadow: 0px 4px 4px lightgrey;
 }
 .activites_container_card_double {
-    min-width: 300px;
-    width: 22%;
-    height: 90%;
+    min-width: 220px;
+    width: 24%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
 }
 .activites_container_card_item {
     width: 100%;
@@ -416,19 +422,20 @@ ACTIVITES MARSEILLE
     object-fit: cover;
     width:100%;
     height: 250px;
-    border-radius: 20px 20px 0 0 ;
+    border-radius: 20px 20px 0 0;
 }
 #activites_card_img_dble_02 {
     object-fit: cover;
     width:100%;
     height: 140px;
-    border-radius: 20px 20px 0 0 ;
+    border-radius: 20px 20px 0 0;
 }
 #activites_card_img_dble_03 {
     object-fit: cover;
     width:100%;
     height: 210px;
     border-radius: 20px 20px 0 0 ;
+    
 }
 #activites_card_img_dble_04 {
     object-fit: cover;
