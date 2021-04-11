@@ -36,6 +36,13 @@
         flex-direction: column;
     }
 
+    .filters_button {
+        font-size: 0.9rem;
+    }
+
+
+
+
 
 
     /*
@@ -43,6 +50,7 @@
     */
     .footer_container {
         flex-direction: column;
+        width: 100%;
     }
     .footer_item {
         width: 100%;
