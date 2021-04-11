@@ -1,4 +1,5 @@
 @media screen and (max-width: 820px) {
+    
     /*
     HEADER
     */
@@ -30,14 +31,37 @@
     }
 
     /*
-    SEARCH_FILTERS
+    SEARCH_FILTERS AND BUTTONS
     */
+   /*  .search_filters_container {
+        padding: 5px;
+    } */
+    #search_text {
+        display: none;
+    }
+    #search_map_icon {
+        width: 15%;
+    }
+    #search_search_icon {
+        display: block;   
+    }
+    #input_city {
+        width: 70%;
+    }
+    #search_button {
+        border-radius: 15px;
+        width: 15%;
+    }
     .filters_button {
         flex-direction: column;
+        flex-wrap: wrap;
+        /* font-size: 0.9rem; */
     }
-
+    #filters_title {
+        width: 100%;
+    }
     .filters_button {
-        font-size: 0.9rem;
+        margin-left: 0;
     }
 
 
