@@ -204,15 +204,14 @@ HEBERGEMENTS ET POPULAIRES
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 2rem;
-    padding: 0 10px;
+    justify-content: space-evenly;
+    /* margin-bottom: 2rem; */
 }
 
 .hebergements {
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 10px;
     width: 60%;
 }
 
@@ -220,10 +219,13 @@ HEBERGEMENTS ET POPULAIRES
     margin-top: 2rem;
 }
 
+.hebergements_h3_end {
+    margin: 2rem 10px;
+}
+
 .populaires {
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 2rem;
     width: 38%;
 }
 
@@ -231,11 +233,16 @@ HEBERGEMENTS ET POPULAIRES
 /* 
 HEBERGEMENTS CARDS
 */
+
+.hebergements_h1_title {
+    margin: 10px;
+}
 .card_horizontal {
     flex-direction: row;
     flex-wrap: wrap;
     box-shadow: 0 6px 6px 0 lightgrey;
-    width: 240px;
+    min-width: 240px;
+    /* width: 240px; */
     display:inline-block;
     background-color: white;
     padding: 5px 5px;
@@ -326,7 +333,7 @@ a, a:visited {
 }
 
 .activites h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 0 10px;
 }
 
@@ -335,43 +342,47 @@ POPULAIRES
 */
 
 .populaires_title {
-    width: 92%;
+    width: 90%;
     display: flex; 
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+/*     font-size: 1.3em; */
 }
 .populaires_cards {
-    width: 92%;
-    min-width: 330px;
+    width: 96%;
+    min-width: 280px;
+    /* max-width: 500px; */
     height: 160px;
     display: flex;
     background-color: white;
     border-radius:20px;
-    margin-top:20px;
+    margin: 0 0 20px 10px;
     box-shadow: 4px 4px 4px lightgrey;
 }
 .populaires_cards:hover {
     box-shadow: 8px 8px 8px grey;
 }
 .populaires_cards_div {
-    width:180px;
+    width:40%;
     border-radius:20px 0 0 20px;
     padding:2px;
     height:160px  
 }
 .populaires_cards_div_img {
     object-fit: cover;
-    width: 140px;
+    width: 100%;
     height: 100%;
     border-radius: 20px 0 0 20px;
     padding:2px
 }
 .populaires_cards_div_container {
+    width:60%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;                     
     align-items: flex-start;
+    font-size: 0.9em;
 }
 .populaires_cards_div_container_txt {
     padding: 20px;
@@ -387,7 +398,7 @@ ACTIVITES MARSEILLE
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 20px;
+    padding: 10px;
 }
 #activites_container {
     display: flex;
@@ -419,7 +430,7 @@ ACTIVITES MARSEILLE
 .activites_card_img {
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 470px;
     border-radius: 20px 20px 0 0 ;
 }
 #activites_card_img_dble_01 {
@@ -449,7 +460,7 @@ ACTIVITES MARSEILLE
 }
 
 .activites_card_h3 {
-    padding-left: 20px;
+    padding: 10px 10px 10px 20px;
     min-height: 20px;
 }
 .activites_container_card_double_item {
