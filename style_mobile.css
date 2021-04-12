@@ -69,6 +69,9 @@
     .hebergements_and_populaires {
         flex-direction: column;
     }
+    .populaires_title_h2 {
+        padding: 0;
+    }
     .populaires {
         order: 1;
         width: 100%;
