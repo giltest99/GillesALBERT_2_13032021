@@ -225,10 +225,8 @@ HEBERGEMENTS ET POPULAIRES
     margin: 2rem 0 0rem 2.5rem;
 }
 
-
-
 /* 
-HEBERGEMENTS CARDS
+HEBERGEMENTS CARDS 
 */
 
 .hebergements_h1_title {
@@ -485,13 +483,6 @@ ACTIVITES MARSEILLE
 /*
     FOOTER
 */
-/* .footer {
-    background-color: #F2F2F2;
-    width: 100%;
-    padding: 50px;
-    margin-top: 4rem;
-} */
-
 
 .footer_container {
     display: flex;
