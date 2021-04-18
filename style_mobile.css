@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 910px) {
     
     /*
     HEADER
@@ -75,15 +75,19 @@
     .populaires {
         order: 1;
         width: 100%;
-        padding: 0;
         border-radius: 0;
+    }
+    .populaires_cards_container {
+        width: 92%;
     }
     .populaires_cards {
         min-width: 280px;
-        width: 96%;
+        max-width: 100%;
     }
     .hebergements {
         order: 2;
+        background-color: white;
+        width: 100%;
     }
     .populaires_title {
         margin: 1rem auto 1rem auto;    
@@ -101,42 +105,41 @@
     /*
     HEBERGEMENTS
     */
-
-    .hebergements {
-        background-color: white;
+    .card_horizontal_container {
         width: 100%;
+  /*       justify-content: flex-start; */
     }
     .card_horizontal {
-        width: 98%;
-        min-width: 240px;
-        /* max-width: 500px; */
+        width: 92%;
     }
 
 
     /*
     ACTIVITES MARSEILLE
     */
+    #activites_marseille {
+        width: 94%;
+    }
     #activites_container {
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 10px;
         width: 100%;
+        padding-left: 3%;
     }
 
     .activites_container_card_single {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
    
     .activites_container_card_double {
         width: 100%;
-        margin-bottom: 20px;
     }
     #activites_container_card_double_02 {
         margin-bottom: 0;
     }
     .activites_container_card_double_item {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 
     /*
