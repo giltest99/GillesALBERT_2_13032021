@@ -1,152 +1,152 @@
 @media screen and (max-width: 910px) {
-    
-    /*
+  /*
     HEADER
     */
-    .header_logo  {
-        width: 50%;
-        order: 1;
-    }
-    .header_inscription {
-        width: 50%;
-        order: 2;
-    }
-    .header_navigation {
-        width: 100%;
-        order: 3;
-        border-bottom: 2px solid #F2F2F2;
-    }
-    .header_navigation_item_1:hover {
-        color:#0065FC;
-        border-bottom: 2px solid #0065FC;
-        border-top: none;
-    }
-    .header_navigation_item_2:hover {
-        color:#0065FC;
-        border-bottom: 2px solid #0065FC;
-        border-top: none;
-    }
-    .header_navigation_item_3:hover {
-        border-top: none;
-    }
+  .header_logo {
+    width: 50%;
+    order: 1;
+  }
+  .header_inscription {
+    width: 50%;
+    order: 2;
+  }
+  .header_navigation {
+    width: 100%;
+    order: 3;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .header_navigation_item_1:hover {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+  .header_navigation_item_2:hover {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+  .header_navigation_item_3:hover {
+    border-top: none;
+  }
 
-    /*
+  /*
     SEARCH_FILTERS AND BUTTONS
     */
 
-    #search_text {
-        display: none;
-    }
-    #search_map_icon {
-        width: 15%;
-    }
-    #search_search_icon {
-        display: block;   
-    }
-    #input_city {
-        width: 70%;
-    }
-    #search_button {
-        border-radius: 15px;
-        width: 15%;
-    }
-    .filters_button {
-        flex-direction: column;
-        flex-wrap: wrap;
-        /* font-size: 0.9rem; */
-    }
-    #filters_title {
-        width: 100%;
-    }
-    .filters_button {
-        margin-left: 0;
-    }
+  #search_text {
+    display: none;
+  }
+  #search_map_icon {
+    width: 15%;
+  }
+  #search_search_icon {
+    display: block;
+  }
+  #input_city {
+    width: 70%;
+  }
+  #search_button {
+    border-radius: 15px;
+    width: 15%;
+  }
+  .filters_button {
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* font-size: 0.9rem; */
+  }
+  #filters_title {
+    width: 100%;
+  }
+  .filters_button {
+    margin-left: 0;
+  }
 
-    /*
+  /*
     POPULAIRES 
     */
 
-    .hebergements_and_populaires {
-        flex-direction: column;
-    }
-    .populaires_title_h2 {
-        padding: 0;
-    }
-    .populaires {
-        order: 1;
-        width: 100%;
-        border-radius: 0;
-    }
-    .populaires_cards_container {
-        width: 92%;
-    }
-    .populaires_cards {
-        min-width: 280px;
-        max-width: 100%;
-    }
-    .hebergements {
-        order: 2;
-        background-color: white;
-        width: 100%;
-    }
-    .populaires_title {
-        margin: 1rem auto 1rem auto;    
-    }
+  .hebergements_and_populaires {
+    flex-direction: column;
+  }
+  .populaires_title_h2 {
+    padding: 0;
+  }
+  .populaires {
+    order: 1;
+    width: 100%;
+    border-radius: 0;
+  }
+  .populaires_cards_container {
+    width: 92%;
+  }
+  .populaires_cards {
+    min-width: 280px;
+    max-width: 100%;
+  }
+  .hebergements {
+    order: 2;
+    background-color: white;
+    width: 100%;
+  }
+  .populaires_title {
+    margin: 1rem auto 1rem auto;
+  }
 
-    .activites_card_img {
-        height: 190px;
-    }
-    #activites_card_img_dble_01, #activites_card_img_dble_02 {
-        height: 190px;
-    }
+  .activites_card_img {
+    height: 190px;
+  }
+  #activites_card_img_dble_01,
+  #activites_card_img_dble_02 {
+    height: 190px;
+  }
 
-    /*
+  /*
     HEBERGEMENTS
     */
-    .card_horizontal_container {
-        width: 100%;
-    }
-    .card_horizontal {
-        width: 92%;
-    }
+  .card_horizontal_container {
+    width: 100%;
+  }
+  .card_horizontal {
+    width: 92%;
+  }
 
-    /*
+  /*
     ACTIVITES MARSEILLE
     */
-    #activites_marseille {
-        width: 94%;
-    }
-    #activites_container {
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 100%;
-        padding-left: 3%;
-    }
+  #activites_marseille {
+    width: 94%;
+  }
+  #activites_container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 3%;
+  }
 
-    .activites_container_card_single {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-   
-    .activites_container_card_double {
-        width: 100%;
-    }
-    #activites_container_card_double_02 {
-        margin-bottom: 0;
-    }
-    .activites_container_card_double_item {
-        margin-bottom: 2rem;
-    }
+  .activites_container_card_single {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 
-    /*
+  .activites_container_card_double {
+    width: 100%;
+  }
+  #activites_container_card_double_02 {
+    margin-bottom: 0;
+  }
+  .activites_container_card_double_item {
+    margin-bottom: 2rem;
+  }
+
+  /*
     FOOTER
     */
-    .footer_container {
-        flex-direction: column;
-        width: 100%;
-    }
-    .footer_item {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
+  .footer_container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_item {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
